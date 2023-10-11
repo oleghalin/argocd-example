@@ -8,7 +8,6 @@ spec:
   source:
     repoURL: https://github.com/oleghalin/argocd-example.git
     targetRevision: HEAD
-    path: kustomize/base
   destination:
     server: https://kubernetes.default.svc
     namespace: playground
