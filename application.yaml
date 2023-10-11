@@ -8,6 +8,7 @@ spec:
   source:
     repoURL: https://github.com/oleghalin/argocd-example.git
     targetRevision: HEAD
+    path: overlays/production
   destination:
     server: https://kubernetes.default.svc
     namespace: playground
