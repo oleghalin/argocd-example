@@ -20,7 +20,7 @@ spec:
       - name: http-echo
         image: hashicorp/http-echo
         ports:
-        - containerPort: 80
+        - containerPort: 5678
         resources:
           limits:
             cpu: 1000m
